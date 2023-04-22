@@ -56,6 +56,7 @@ Now after step 2, in the terminal there are a few commands that we will run:
 ---
 
 Here is an exmaple of what the command -ls -a should print 
+  
 ![Print](https://raw.githubusercontent.com/viviantran706/cse15l-lab-reports/main/Screenshot%202023-04-06%20125122.png)
 
 
