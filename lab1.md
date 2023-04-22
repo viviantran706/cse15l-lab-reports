@@ -38,20 +38,19 @@ If you see this photo below, then you know you have done the steps correctly.
 ![Image](https://raw.githubusercontent.com/viviantran706/cse15l-lab-reports/main/Screenshot%202023-04-06%20123418.png)
 
 ## Step 3- Running some Commands
-Now after step 2, in the terminal there are a few commands that we will run:
--cd ~
+Now after step 2, in the terminal there are a few commands that we will run, with a quick run down on each command:
 
--cd
+-cd (This is the command to change the current directory)
 
--ls -lat
+-ls -lat (This command produces files form the home directory)
 
--ls -a
+-ls -a (This command prompts all the files and directoroies)
 
--ls <directory> where <directory> is /home/linux/ieng6/cs15lsp23/cs15lsp23abc, where the abc is one of the other group members’ username
+-ls <directory> where <directory> is /home/linux/ieng6/cs15lsp23/cs15lsp23abc, where the abc is one of the other group members’ username (This command displays what other files the directory)
 
--cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/
+-cp /home/linux/ieng6/cs15lsp23/public/hello.txt ~/ (This command takes the user to the hello.txt file)
 
--cat /home/linux/ieng6/cs15lsp23/public/hello.txt
+-cat /home/linux/ieng6/cs15lsp23/public/hello.txt (This command prints the hello.txt in the terminal).
 
 ---
 
@@ -61,4 +60,4 @@ Here is an exmaple of what the command -ls -a should print
 
 
   
-Specificly with ls -a, this command prompts all the files and directoroies. If you are done with these commands to exit: Crtl-D or run the command `exit`.
+If you are done with these commands to exit: Crtl-D or run the command `exit`.
