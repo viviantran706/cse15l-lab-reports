@@ -57,7 +57,8 @@ Now after step 2, in the terminal there are a few commands that we will run, wit
 Here is an exmaple of what the command -ls -a should print 
   
 ![Print](https://raw.githubusercontent.com/viviantran706/cse15l-lab-reports/main/Screenshot%202023-04-06%20125122.png)
-
+  
+  
 
   
 If you are done with these commands to exit: Crtl-D or run the command `exit`.
