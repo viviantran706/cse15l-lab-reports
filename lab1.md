@@ -3,7 +3,7 @@
 ## Step 1- Downloading Visual Studio Code (VSC)
 (If VSC is already downloaded skip this step)
 Otherwise, go to the VSC website
-[Link] (https://code.visualstudio.com/), go thorugh the downloading instrustions and 
+[Link](https://code.visualstudio.com/), go thorugh the downloading instrustions and 
 download the apporiate system according to desktop, like Mac and Windows.
 
 When it has installed, open the file. Then, a new window should appear on your screen.
