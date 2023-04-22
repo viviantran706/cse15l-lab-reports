@@ -59,4 +59,5 @@ Here is an exmaple of what the command -ls -a should print
 ![Print](https://raw.githubusercontent.com/viviantran706/cse15l-lab-reports/main/Screenshot%202023-04-06%20125122.png)
 
 
+  
 Specificly with ls -a, this command prompts all the files and directoroies. If you are done with these commands to exit: Crtl-D or run the command `exit`.
