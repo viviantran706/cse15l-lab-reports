@@ -6,12 +6,18 @@ After writing a webserver called Stringserver, (using the server `port 6070`), t
 list use the format `/add-message?s=<string>` then to search use `/search?s=<string>`. 
 
 ![Image](https://raw.githubusercontent.com/viviantran706/cse15l-lab-reports/main/Screenshot%202023-04-23%20153543.png)
-```
-Adding this after after the server port,
-/add-message?s=Hello
-```
+
+
 ![Image](https://github.com/viviantran706/cse15l-lab-reports/blob/main/Screenshot%202023-04-23%20153557.png)
 
+Adding **/add-message?s=Hello** after after **localhost:<server port>**,
+---
+
+
+![Image](https://github.com/viviantran706/cse15l-lab-reports/blob/main/Screenshot%202023-04-23%20153614.png)
+
+To check what is on the list add **/serach?s=Hello", and this is your page should look:
+---
 ## Part 2
 
 ## Part 3
