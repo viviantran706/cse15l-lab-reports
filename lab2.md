@@ -7,17 +7,21 @@ list use the format `/add-message?s=<string>` then to search use `/search?s=<str
 
 ![Image](https://raw.githubusercontent.com/viviantran706/cse15l-lab-reports/main/Screenshot%202023-04-23%20153543.png)
 
+`Adding **/add-message?s=Hello** after after **localhost:<server port>**,`
 
 ![Image](https://github.com/viviantran706/cse15l-lab-reports/blob/main/Screenshot%202023-04-23%20153557.png)
 
-Adding **/add-message?s=Hello** after after **localhost:<server port>**,
----
 
-
+`To check what is on the list add **/search?s=Hello", and this is your page should look:`
 ![Image](https://github.com/viviantran706/cse15l-lab-reports/blob/main/Screenshot%202023-04-23%20153614.png)
 
-To check what is on the list add **/serach?s=Hello", and this is your page should look:
----
+After doing the same process to add *How are you* to the list, I did `/search?s=H` and the page should look like this:
+![Image](https://github.com/viviantran706/cse15l-lab-reports/blob/main/Screenshot%202023-04-23%20153711.png)
+
+
+
+
+
 ## Part 2
 
 ## Part 3
