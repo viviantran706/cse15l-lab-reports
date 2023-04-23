@@ -1,6 +1,15 @@
 # Lab Report 3
 
 ## Part 1
+After writing a webserver called Stringserver, (using the server `port 6070`), to add words to
+list use the format `/add-message?s=<string>` then to search use `/search?s=<string>. 
+
+![Image](https://raw.githubusercontent.com/viviantran706/cse15l-lab-reports/main/Screenshot%202023-04-23%20153543.png)
+```
+Adding this after after the server port,
+/add-message?s=Hello
+```
+![Image](
 
 ## Part 2
 
