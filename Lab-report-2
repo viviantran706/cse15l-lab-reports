@@ -1,0 +1,14 @@
+# Lab Report 3
+
+## Part 1
+
+## Part 2
+
+## Part 3
+
+From week 2 and 3, I have learned how a method that have the same out come has different bugs. 
+For exmaple when looking at the reverseInplace method, when debugging there wa a few errors 
+but if we looked at reversed method we see that the both have the same intentions, but each
+had there own errors and bugs that were different. Another thing that I learned form these 
+week was how to write tester cases. Beucase I have never wrote tester before with JUmit. So this
+week was really useful.
