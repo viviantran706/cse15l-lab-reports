@@ -43,7 +43,8 @@ public void testReversed() {
 ![Image](https://github.com/viviantran706/cse15l-lab-reports/blob/main/Screenshot%202023-04-20%20123739.png)
 ```
 The symptom is that the array was in the wrong order, and not reversed as intended
-In the photo above we see that int he ReverseInPlace method failed one of the test which was the failure-inducing input, and it passes the first tester becuase it only contains one element
+In the photo above we see that int he ReverseInPlace method failed one of the test which was the 
+failure-inducing input, and it passes the first tester becuase it only contains one element
 
 ```
 Before:
