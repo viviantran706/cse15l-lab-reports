@@ -18,7 +18,8 @@ To check what is on the list add `/search?s=Hello`, and this is your page should
 
 After doing the same process to add *How are you* to the list, I did `/search?s=H` and the page should look like this:
 ![Image](https://github.com/viviantran706/cse15l-lab-reports/blob/main/Screenshot%202023-04-23%20153711.png)
-THe method that the code called for at this point was the handleRequest and the StringServer. The argument that this passes was the */search* and some of the values that are important is the contain empty string that returns the strings that contains the word that is searched. Then the returnSearch splits teh query to find what need to 
+
+The method that the code called for at this point was the handleRequest and the StringServer. The argument that this passes was the */search* and some of the values that are important is the contain empty string that returns the strings that contains the word that is searched. Then the returnSearch splits teh query to find what need to 
 found (for this example it is anthing that contains h). Then str is an array that contained everything that was entered in the `/add-message?s=<string>`. With in this array it containes ' Hello '  and  ` How are you `.  Which is why this is printied on the page.
 
 
@@ -39,14 +40,18 @@ public void testReversed() {
     assertArrayEquals(new int[]{ }, ArrayExamples.reversed(input1));
   }
 ```
+![Image](https://github.com/viviantran706/cse15l-lab-reports/blob/main/Screenshot%202023-04-20%20123739.png)
 ```
 The symptom is that the array was in the wrong order, and not reversed as intended
-![Image](https://github.com/viviantran706/cse15l-lab-reports/blob/main/Screenshot%202023-04-20%20123739.png)
-This is where we see that 
+In the photo above we see that int he ReverseInPlace method failed one of the test which was the failure-inducing input, and it passes the first tester becuase it only contains one element
 
 ```
+Before:
+![Image](https://github.com/viviantran706/cse15l-lab-reports/blob/main/Screenshot%202023-04-23%20185324.png)
 
-The bug I will be talking about is the one called reversed in place, and the bug was spefically the fact that nothing was getting flipped or reversed. 
+After:
+![Image](https://github.com/viviantran706/cse15l-lab-reports/blob/main/Screenshot%202023-04-23%20185700.png)
+
 ## Part 3
 
 From week 2 and 3, I have learned how a method that have the same out come has different bugs. 
