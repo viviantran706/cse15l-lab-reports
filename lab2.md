@@ -52,10 +52,10 @@ failure-inducing input, and it passes the first tester becuase it only contains 
 
 ```
 Before:
-![Image]([https://github.com/viviantran706/cse15l-lab-reports/blob/main/Screenshot%202023-04-23%20185324.png](https://raw.githubusercontent.com/viviantran706/cse15l-lab-reports/main/Screenshot%202023-04-23%20185324.png)
+![Image](https://raw.githubusercontent.com/viviantran706/cse15l-lab-reports/main/Screenshot%202023-04-23%20185324.png)
 
 After:
-![Image]([https://github.com/viviantran706/cse15l-lab-reports/blob/main/Screenshot%202023-04-23%20185700.png](https://raw.githubusercontent.com/viviantran706/cse15l-lab-reports/main/Screenshot%202023-04-23%20185700.png))
+![Image](https://raw.githubusercontent.com/viviantran706/cse15l-lab-reports/main/Screenshot%202023-04-23%20185700.png)
 
 ## Part 3
 
