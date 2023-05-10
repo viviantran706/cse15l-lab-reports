@@ -10,14 +10,14 @@ For the picture above the method that was used was the handleRequest and the Ser
 
 Adding `/add-message?s=Hello` after after `localhost:<server port>`,
 
-![Image]([https://github.com/viviantran706/cse15l-lab-reports/blob/main/Screenshot%202023-04-23%20153557.png](https://raw.githubusercontent.com/viviantran706/cse15l-lab-reports/main/Screenshot%202023-04-23%20153557.png))
+![Image](https://raw.githubusercontent.com/viviantran706/cse15l-lab-reports/main/Screenshot%202023-04-23%20153557.png)
 
 
 To check what is on the list add `/search?s=Hello`, and this is your page should look:
-![Image]([https://github.com/viviantran706/cse15l-lab-reports/blob/main/Screenshot%202023-04-23%20153614.png](https://raw.githubusercontent.com/viviantran706/cse15l-lab-reports/main/Screenshot%202023-04-23%20153614.png))
+![Image](https://raw.githubusercontent.com/viviantran706/cse15l-lab-reports/main/Screenshot%202023-04-23%20153614.png)
 
 After doing the same process to add *How are you* to the list, I did `/search?s=H` and the page should look like this:
-![Image]([https://github.com/viviantran706/cse15l-lab-reports/blob/main/Screenshot%202023-04-23%20153711.png](https://raw.githubusercontent.com/viviantran706/cse15l-lab-reports/main/Screenshot%202023-04-23%20153711.png))
+![Image](https://raw.githubusercontent.com/viviantran706/cse15l-lab-reports/main/Screenshot%202023-04-23%20153711.png)
 
 The method that the code called for at this point was the handleRequest and the StringServer. The argument that this passes was the */search* and some of the values that are important is the contain empty string that returns the strings that contains the word that is searched. Then the returnSearch splits teh query to find what need to 
 found (for this example it is anthing that contains h). Then str is an array that contained everything that was entered in the `/add-message?s=<string>`. With in this array it containes ' Hello '  and  `How are you `.  Which is why this is printied on the page.
@@ -43,7 +43,7 @@ public void testReversed() {
   }
 ```
 
-![Image]([https://github.com/viviantran706/cse15l-lab-reports/blob/main/Screenshot%202023-04-20%20123739.png](https://raw.githubusercontent.com/viviantran706/cse15l-lab-reports/main/Screenshot%202023-04-20%20123739.png)
+![Image](https://raw.githubusercontent.com/viviantran706/cse15l-lab-reports/main/Screenshot%202023-04-20%20123739.png)
 
 ```
 The symptom is that the array was in the wrong order, and not reversed as intended
