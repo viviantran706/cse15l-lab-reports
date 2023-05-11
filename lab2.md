@@ -19,8 +19,9 @@ To check what is on the list add `/search?s=Hello`, and this is your page should
 After doing the same process to add *How are you* to the list, I did `/search?s=H` and the page should look like this:
 ![Image](https://raw.githubusercontent.com/viviantran706/cse15l-lab-reports/main/Screenshot%202023-04-23%20153711.png)
 
-The method that the code called for at this point was the handleRequest and the StringServer. The argument that this passes was the */search* and some of the values that are important is the contain empty string that returns the strings that contains the word that is searched. Then the returnSearch splits teh query to find what need to 
-found (for this example it is anthing that contains h). Then str is an array that contained everything that was entered in the `/add-message?s=<string>`. With in this array it containes ' Hello '  and  `How are you `.  Which is why this is printied on the page.
+The method that the code called for at this point was the handleRequest and the StringServer. The argument that this passes was the */search* and some of the values that are important is the contain empty string that returns the strings that contains the word that is searched. Then the returnSearch splits teh query to find what need to found (for this example it is anthing that contains h). Then str is an array that contained everything that was entered in the `/add-message?s=<string>`. With in this array it containes ' Hello '  and  `How are you `. Which is why this is printied on the page.
+
+To go more into depgh about how the URL is handle, there is a natural structure to the URL where it is easily used to break the pieces its Domian, path, Query, and Anchor. The parts that were used in the methods was the Path and the Query. The path part was used to add the words to a list, with the help of the split of the query that sperates the word from the rest of the URL, it is now added to the URL. The same is applied to the search, the path was a way to idenity wheater is was used to add words or to search. Then it used the query and split to seperate the phrase or word that is beieng searched for. Then returns the words that contain that phrase or word.
 
 
 
