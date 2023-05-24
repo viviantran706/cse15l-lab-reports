@@ -38,7 +38,7 @@ Output:
 This would fina all the fiels in the **./technical** with out any type of specification.
 The point of htis command prompt isto search for all the files in the **./technical** directory. This is good to retreieve all the iteam in the directory.
 
-Website used:[Link](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/)
+Website used: [Link](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/)
 I found this by searching for "command find 4 interesting command-lin" in the search bar in google.
 
 ---
@@ -72,7 +72,7 @@ Outputs:
 This command finds all the text files that are in teh **./technical** directory. This command prompt also uses -name "*.*txt". Therefore this whole commandsearches through the directoy fore files that are text files. This is really helpful when there are a large amount of files and want to search for a specific file type.
 
 
-Website used:[Link](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/)
+Website used: [Link](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/)
 
 I found this by searching for "command find 4 interesting command-lin" in the search bar in google.
 
@@ -103,10 +103,10 @@ Outputs:
 ./technical/larger_then1M_directory3
 ```
 
-This command , will find all the directoires in the **./technical** directory that is 1 megabyte or larger. This helps of the user wants to search for directory based on teh size. Which is useful if you do want to look for a certian directory with these criterias.
+This command, will find all the directoires in the **./technical** directory that is 1 megabyte or larger. This helps of the user wants to search for directory based on teh size. Which is useful if you do want to look for a certian directory with these criterias.
 
 
-Website used:[Link](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/)
+Website used: [Link](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/)
 
 I found this by searching for "command find 4 interesting command-lin" in the search bar in google.
 
@@ -136,7 +136,7 @@ This command, will find all the directoriees that starts with "playing" followed
 
 
 
-Website used:[Link](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/)
+Website used: [Link](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/)
 
 I found this by searching for "command find 4 interesting command-lin" in the search bar in google.
 
