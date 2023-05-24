@@ -39,6 +39,7 @@ This would fina all the fiels in the **./technical** with out any type of specif
 The point of htis command prompt isto search for all the files in the **./technical** directory. This is good to retreieve all the iteam in the directory.
 
 Website used:[Link](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/)
+I found this by searching for "command find 4 interesting command-lin" in the search bar in google.
 
 ---
 Looking at -type, this command is normally used to search for specific file type. There is an option that follows it to specify the file type:
@@ -59,7 +60,7 @@ Output:
 This finds all the files that are in the **./technical** directory. This is really helpful when looking for regular files, really nice when the user wants to look for a specific file.
 
 ```
-find ./technical -type f -name "*.txt"*
+find ./technical -type f -name "*.txt"
 ```
 ```
 Outputs:
@@ -68,10 +69,12 @@ Outputs:
 ./technical/files3.txt
 ```
 
-This command finds all the text files that are in teh **./technical** directory. This command prompt also uses *-name "*.*txt"*. Therefore this whole commandsearches through the directoy fore files that are text files. This is really helpful when there are a large amount of files and want to search for a specific file type.
+This command finds all the text files that are in teh **./technical** directory. This command prompt also uses -name "*.*txt". Therefore this whole commandsearches through the directoy fore files that are text files. This is really helpful when there are a large amount of files and want to search for a specific file type.
 
 
 Website used:[Link](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/)
+
+I found this by searching for "command find 4 interesting command-lin" in the search bar in google.
 
 ---
 Looking at -size, this command is normally used to search for a sepcific file based on the file size.
@@ -105,10 +108,12 @@ This command , will find all the directoires in the **./technical** directory th
 
 Website used:[Link](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/)
 
+I found this by searching for "command find 4 interesting command-lin" in the search bar in google.
+
 ---
 Looking for -regex, is a war to search for files and directories that have regular expressional patterns.
 ```
-find ./technical -type f -regex "*.*/file[0-8]"
+find ./technical -type f -regex ".*/file[0-8]"
 ```
 ```
 Outputs:
@@ -119,7 +124,7 @@ Outputs:
 This command,  will find all the files that starts with file followed buy a number 0-8 with in the directory **./technical**. This command is useful when you want to find files that starts with file and a number. This would held locate them based on thier patterns
 
 ```
-find ./technical -type d regex "*.*/playing[[:alpha:]]+"
+find ./technical -type d regex ".*/playing[[:alpha:]]+"
 ```
 ```
 Outputs:
@@ -132,5 +137,7 @@ This command, will find all the directoriees that starts with "playing" followed
 
 
 Website used:[Link](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/)
+
+I found this by searching for "command find 4 interesting command-lin" in the search bar in google.
 
 ---
