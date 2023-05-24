@@ -2,17 +2,16 @@
 
 ## Part 1
 Looking at teh command find. The 4 intresting command line options to use these commands are: 
--name , -type, -perm, and -user. Following the general syntax of fine, which is 
+-name , -type, -size, and -regex. Following the general syntax of fine, which is 
 `
 find [options] [path] [expression]
 `
 .
 
 ---
-Looking at -name, this command prompt tells the find command to search for the file by its name
-and what ever it is followed by that is the name that the find command will search for.
+Looking at -name, this command prompt tells the find command to search for the file by its nameand what ever it is followed by that is the name that the find command will search for.
 
-For exmaple, from the files and directories from ./technical:
+For exmaple, from the files and directories from **./technical**:
 ```
 find ./technical -name "reports*"
 ```
@@ -31,7 +30,7 @@ Looking at -type, this command is normally used to search for specific file type
 * d: directory
 * f: file
 
-For example, form the file and directory from ./technical
+For example, form the file and directory from **./technical**
 ```
 find ./technical -type f
 ```
@@ -43,7 +42,20 @@ find ./technical -type f -name "*.txt"
 This command finds all the text files that are in teh **./technical** directory. This command prompt also uses *-name "*.*txt"*. Therefore this whole commandsearches through the directoy fore files that are text files. This is really helpful when there are a large amount of files and want to search for a specific file type.
 
 ---
-Looking at
+Looking at -size, this command is normally used to search for a sepcific file based on the file size.
 
+For example, from the directory **./techical**:
 
+```
+find ./technical -type f -size +10K
+```
+For this command, the find commands will search all files in the **./technical** directory that are 10 kilobyte or larger. This command is useful if you are searching for managing a disk space, that would need to find anything that needs to be deleted.
+
+```
+find ./technical -type d -size +1M
+```
+This command , will find all the directoires in the **./technical** directory that is 1 megabyte or larger. This helps of the user wants to search for directory based on teh size. Which is useful if you do want to look for a certian directory with these criterias.
+
+---
+Looking for -regex 
 
