@@ -38,6 +38,8 @@ Output:
 This would fina all the fiels in the **./technical** with out any type of specification.
 The point of htis command prompt isto search for all the files in the **./technical** directory. This is good to retreieve all the iteam in the directory.
 
+Website used:[Link](http://a.com)
+
 ---
 Looking at -type, this command is normally used to search for specific file type. There is an option that follows it to specify the file type:
 * d: directory
@@ -68,6 +70,7 @@ Outputs:
 
 This command finds all the text files that are in teh **./technical** directory. This command prompt also uses *-name "*.*txt"*. Therefore this whole commandsearches through the directoy fore files that are text files. This is really helpful when there are a large amount of files and want to search for a specific file type.
 
+Citation
 ---
 Looking at -size, this command is normally used to search for a sepcific file based on the file size.
 
