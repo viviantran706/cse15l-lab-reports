@@ -39,6 +39,7 @@ This would fina all the fiels in the **./technical** with out any type of specif
 The point of htis command prompt isto search for all the files in the **./technical** directory. This is good to retreieve all the iteam in the directory.
 
 Website used: [Link](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/)
+
 I found this by searching for "command find 4 interesting command-lin" in the search bar in google.
 
 ---
@@ -69,7 +70,7 @@ Outputs:
 ./technical/files3.txt
 ```
 
-This command finds all the text files that are in teh **./technical** directory. This command prompt also uses -name "*.*txt". Therefore this whole commandsearches through the directoy fore files that are text files. This is really helpful when there are a large amount of files and want to search for a specific file type.
+This command finds all the text files that are in teh **./technical** directory. This command prompt also uses -name "*.txt". Therefore this whole commandsearches through the directoy fore files that are text files. This is really helpful when there are a large amount of files and want to search for a specific file type.
 
 
 Website used: [Link](https://linuxize.com/post/how-to-find-files-in-linux-using-the-command-line/)
