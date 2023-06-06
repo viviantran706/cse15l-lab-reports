@@ -38,6 +38,8 @@ list was returned as normal rather then flipped backward.
   
 2. Student response and fixes
   ![Image](https://github.com/viviantran706/cse15l-lab-reports/blob/main/Screenshot%202023-06-05%20214839.png)
+  
+  
   I was able to look at the issue fo the for loop that loops through it twice, and I was able to 
   divde it by half so it would not change the second half of the list. Therefore I saw that when 
   it would change the first element with tthe last. I saw that it would then flip it back, the last
