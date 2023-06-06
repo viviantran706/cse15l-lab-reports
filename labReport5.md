@@ -37,6 +37,8 @@ list was returned as normal rather then flipped backward.
   makes the method go through the whole list twice.
   
 2. Student response and fixes
+
+
   ![Image](https://github.com/viviantran706/cse15l-lab-reports/blob/main/Screenshot%202023-06-05%20214839.png)
   
   
